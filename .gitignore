@@ -1,4 +1,1 @@
-echo "node modules/" >> .gitignore
-git rm -r --cached node_modules
-git add .gitignore
-git commit -m "Stop tracking node_modules"
+node_modules
